@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>I spy with my little eyes</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>I SPY</h1>
+		<div class="main">
+			<img
+				onclick="clickHandler(event)"
+				data-unordered="1"
+				src="./img/duck.svg"
+				width="200px"
+				height="200px"
+				alt=""
+			/>
+			<img
+				onclick="clickHandler(event)"
+				data-unordered="2"
+				src="./img/dumptruck.svg"
+				width="200px"
+				height="200px"
+				alt=""
+			/>
+			<img
+				onclick="clickHandler(event)"
+				data-unordered="3"
+				src="./img/firetruck.svg"
+				width="200px"
+				height="200px"
+				alt=""
+			/>
+			<img
+				onclick="clickHandler(event)"
+				data-unordered="4"
+				src="./img/giraffe.svg"
+				width="200px"
+				height="200px"
+				alt=""
+			/>
+			<img
+				onclick="clickHandler(event)"
+				data-unordered="5"
+				src="./img/monkey.svg"
+				width="200px"
+				height="200px"
+				alt=""
+			/>
+			<img
+				onclick="clickHandler(event)"
+				data-unordered="6"
+				src="./img/owl.svg"
+				width="200px"
+				height="200px"
+				alt=""
+			/>
+			<img
+				onclick="clickHandler(event)"
+				data-unordered="7"
+				src="./img/scooter.svg"
+				width="200px"
+				height="200px"
+				alt=""
+			/>
+			<img
+				onclick="clickHandler(event)"
+				data-unordered="8"
+				src="./img/truck.svg"
+				width="200px"
+				height="200px"
+				alt=""
+			/>
+			<img
+				onclick="clickHandler(event)"
+				data-unordered="9"
+				src="./img/walrus.svg"
+				width="200px"
+				height="200px"
+				alt=""
+			/>
+		</div>
+		<div class="list">
+			<ol>
+				<li data-ordered="1">duck</li>
+				<li data-ordered="2">dump truck</li>
+				<li data-ordered="3">fire truck</li>
+				<li data-ordered="4">giraffe</li>
+				<li data-ordered="5">monkey</li>
+				<li data-ordered="6">owl</li>
+				<li data-ordered="7">scooter</li>
+				<li data-ordered="8">pickup truck</li>
+				<li data-ordered="9">walrus</li>
+			</ol>
+		</div>
+		<div class="btn">
+			<button onclick="reset()">reset</button>
+		</div>
+		<script src="script.js" async></script>
+	</body>
+</html>
